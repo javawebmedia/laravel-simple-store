@@ -104,4 +104,18 @@ class Home extends Controller
                 ];
         return view('layout/wrapper',$data);
     }
+
+    // oops
+    public function oops()
+    {
+        $m_site = new Konfigurasi_model();
+        $site   = $m_site->listing();
+
+        $data = [   'title'     => 'Our Pricing',
+                    'keywords'      => $site->keywords,
+                    'description'   => $site->deskripsi,
+                    'content'   => 'home/pricing'
+                ];
+        return view('layout/wrapper',$data);
+    }
 }
