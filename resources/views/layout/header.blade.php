@@ -49,6 +49,11 @@ $nav_produk   = $m_produk->nav_produk('Publish');
                 <i class="fa fa-sign-out-alt"></i>
               </a>
             </li>
+          <?php }else{ ?>
+            <li><a class="nav-link scrollto text-warning" href="{{ asset('sigin') }}">
+                <i class="fa fa-user-lock"></i>&nbsp;Login
+              </a>
+            </li>
           <?php } ?>
           <!-- end checking -->
           
