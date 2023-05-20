@@ -43,6 +43,8 @@ Route::post('signin/proses-login', 'App\Http\Controllers\Signin@proses_login');
 
 // dashboard
 Route::get('dasbor', 'App\Http\Controllers\Dasbor@index');
+Route::get('dasbor/konfirmasi', 'App\Http\Controllers\Dasbor@konfirmasi');
+Route::post('dasbor/proses-konfirmasi', 'App\Http\Controllers\Dasbor@proses_konfirmasi');
 
 // produk
 Route::get('produk', 'App\Http\Controllers\Produk@index');

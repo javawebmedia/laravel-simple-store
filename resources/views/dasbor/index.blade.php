@@ -39,11 +39,13 @@
 
       <td class="text-center">
         <?php if($header_transaksi->status_bayar=='Sudah') { ?>
-          <span class="badge badge-success"><i class="fa fa-check-circle"></i> <?php echo $header_transaksi->status_bayar ?></span>
+          <span class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i> <?php echo $header_transaksi->status_bayar ?></span>
         <?php }elseif($header_transaksi->status_bayar=='Menunggu') { ?>
-          <span class="badge badge-info"><i class="fa fa-clock"></i> <?php echo $header_transaksi->status_bayar ?></span>
+          <span class="btn btn-info btn-sm"><i class="fa fa-clock"></i> <?php echo $header_transaksi->status_bayar ?></span>
+        <?php }elseif($header_transaksi->status_bayar=='Konfirmasi') { ?>
+          <span class="btn btn-warning btn-sm"><i class="fa fa-upload"></i> <?php echo $header_transaksi->status_bayar ?></span>
         <?php }elseif($header_transaksi->status_bayar=='Dibatalkan') { ?>
-          <span class="badge badge-secondary"><i class="fa fa-times-circle"></i> <?php echo $header_transaksi->status_bayar ?></span>
+          <span class="btn btn-secondary btn-sm"><i class="fa fa-times-circle"></i> <?php echo $header_transaksi->status_bayar ?></span>
         <?php } ?>
       </td>
 
