@@ -1,0 +1,134 @@
+
+body {
+	background: white;
+	font-family: ArialBold;
+	padding: 1cm 2cm 2cm 2cm;
+	width: 19cm;
+	margin: auto;
+	font-size: 14px;
+	border-left: solid 20px #f2f2f2;
+}
+h1 {
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+h2 {
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+h3, h5, h6 {
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	border-bottom: solid thin #eee;
+}
+hr {
+	border: solid thin #ddd;
+}
+/* logo */
+.logo {
+	text-align: center;
+	margin: 0.5cm 0;
+}
+.logo h1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.logo img {
+	max-width: 100px;
+	height: auto;
+}
+/* foto */
+.foto {
+	text-align: center;
+}
+.foto h1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.foto img {
+	max-width: 190px;
+	height: auto;
+}
+table {
+	border: solid thin #ddd;
+	border-collapse: collapse;
+	width: 100%;
+}
+td, th {
+	border: solid thin #ddd;
+	text-align: left;
+	vertical-align: top;
+	padding: 0.2cm;
+}
+.border-right-orange {
+	border-right: solid 2px #f45c2c;
+}
+span.orange {
+	color: #f45c2c;
+}
+.border td, .border th {
+	border: solid thin #ddd;
+}
+.cetak {
+	padding: 0.2cm 0;
+}
+th {
+	background-color: #EEE;
+}
+.nomor {
+	width: 10cm;
+	margin-left: 12cm;
+	margin-bottom: 0.3cm;
+	clear: both;
+}
+.nomor td {
+	border: solid thin #ddd;
+}
+.bg-gray {
+	background-color: #eee;
+}
+.delivery {
+	font-size: 12px;
+}
+.delivery td, .delivery th {
+	border: solid thin #ddd;
+	font-size: 10px;
+}
+.text-center {
+	text-align: center;
+	vertical-align: top;
+}
+.align-middle, td..align-middle {
+	vertical-align: middle;
+}
+.delivery td img {
+	width: 2cm;
+	height: auto;
+}
+.delivery th {
+	text-align: center;
+	vertical-align: middle;
+}
+.text-right {
+	text-align: right;
+}
+table.no-border, .no-border td, .no-border th {
+	border: none;
+	vertical-align: top;
+}
+.header {
+	color: #666;
+	font-size: 12px;
+	font-weight: 600;
+}
+.footer {
+	text-align: center;
+	color: #f45c2c;
+}
